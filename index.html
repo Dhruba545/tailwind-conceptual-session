@@ -10,17 +10,21 @@
     <header>
         <nav class="w-[100%] bg-blue-950 h-12 rounded-none flex justify-center items-center text-[8px] font-bold text-white  " >
             <div class="w-[800px] h-6  rounded-[5px] flex items-center ">
-                <div class="w-1/2 flex items-center space-x-5  font-bold " ><img class="h-4 ml-5" src="assets/logo-3.png">
-                    <div> Home </div>
-                    <div> About  </div>
-                    <div>Services </div>
-                    <div>Blog</div>
-                    <div>Contact</div>
+                <div class="w-1/2 flex items-center space-x-5   font-bold " ><img class="h-4 ml-5 " src="assets/logo-3.png ">
+                   <div class="hidden md:block" >
+                    <div class="flex space-x-5 " >
+                        <div> Home </div>
+                        <div> About  </div>
+                        <div>Services </div>
+                        <div>Blog</div>
+                        <div>Contact</div>
+                    </div>
+                   </div>
                 </div>
-                <div class="w-1/2 flex justify-end pr-6 space-x-5 ">
+                <div class=" w-1/2 hidden md:flex md:justify-end pr-6 space-x-5  ">
                     <button class="btn " >Login </button><button class="btn bg-red-500 rounded-[5px] py-1.5 px-2 ">Get Started</button>
-
                 </div>
+                <div class="flex justify-end w-1/2 md:hidden " > <img class="h-4 mr-5 md:hidden " src="assets/more.png"> </div>
             </div>
 
         </nav>
